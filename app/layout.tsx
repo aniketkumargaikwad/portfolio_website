@@ -15,7 +15,7 @@ export const metadata: Metadata = {
       'A premium, mobile-first portfolio experience with neon accents and modern UX.',
     type: 'website',
   },
-  metadataBase: new URL('https://aniketkumargaikwad.github.io/portfolio_website/'),
+  metadataBase: new URL('https://example.com'),
 };
 
 export default function RootLayout({
