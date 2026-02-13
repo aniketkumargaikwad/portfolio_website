@@ -35,28 +35,9 @@ npm run build
 npm run start
 ```
 
-## GitHub Pages Deployment
-
-This repository is configured for GitHub Pages project-site deployment at:
-
-- `https://aniketkumargaikwad.github.io/portfolio_website/`
-
-What is included:
-
-- Static export enabled via `next.config.mjs` (`output: "export"`)
-- Repo-aware `basePath` and `assetPrefix` for `/portfolio_website`
-- GitHub Actions workflow at `.github/workflows/deploy-pages.yml`
-
-To publish successfully:
-
-1. Go to **Settings → Pages**.
-2. Set **Source** to **GitHub Actions**.
-3. Push to `main` (or manually trigger the workflow from **Actions**).
-4. Wait for `Deploy Next.js site to Pages` to pass.
-
 ## Deployment
 
-This project is ready for Vercel or Netlify as well.
+This project is ready for Vercel or Netlify. For Vercel, import the repository and use the default Next.js settings.
 
 ## Content Management
 
