@@ -1,63 +1,53 @@
-# BC | Angular Portfolio App
+# Aniket Gaikwad | Mobile-First Portfolio
 
-This is my personal portfolio website built with Angular, Typescript, HTML5, CSS3, Bootstrap, Ngx-Bootstrap, DevIcons and Angular Material. It's currently deployed on the web: [https://angular-portfolio-app-omega.vercel.app/](https://angular-portfolio-app-omega.vercel.app/)
+A premium, mobile-first portfolio experience built with Next.js (App Router), React, TypeScript, Tailwind CSS, and Framer Motion. The design uses a black base with neon accents, minimal typography, and lightweight animations optimized for mobile UX.
 
-![Barbara Calderon's Angular Portfolio App](portfolio.png)
+> **Note:** The external content source (`https://aniket-gaikwad-portfolio.lovable.app/`) could not be accessed from this environment. The portfolio content in `data/portfolio.ts` is populated using the legacy Angular source that already exists in this repository.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+## Tech Stack
 
-## Author
+- Next.js (App Router)
+- React 18
+- TypeScript
+- Tailwind CSS (mobile-first)
+- Framer Motion (subtle motion only)
 
-I'm Barbara Calderon, a software developer.
+## Getting Started
 
-- [Github](https://www.github.com/barbaracalderon)
-- [Linkedin](https://www.linkedin.com/in/barbaracalderondev)
-- [Twitter](https://www.x.com/bederoni)
+Install dependencies:
 
-## The Project
+```bash
+npm install
+```
 
-This portfolio is a **dynamic and responsive web application** built using **Angular**, showcasing my skills and projects as a software developer. The design and development of this portfolio aimed to provide a seamless user experience across different devices while highlighting various aspects of my professional journey. 
+Run the development server:
 
-The potfolio has sections of home, about, education, portfolio projects and contact information. Key features are its dynamic content, the responsive design and modern aesthetics.
+```bash
+npm run dev
+```
 
-## Technologies Used
+Open [http://localhost:3000](http://localhost:3000) to view the site.
 
-- AngularCLI
-- Angular
-- Angular Materials
-- Typescript
-- HTML5
-- CSS3
-- Bootstrap
-- Ngx-Bootstrap
-- Dev Icons
-- Vercel
-- Vite
+## Production Build
 
-## Development server
+```bash
+npm run build
+npm run start
+```
 
-You can run this project locally too.
+## Deployment
 
-Clone this repo.
+This project is ready for Vercel or Netlify. For Vercel, import the repository and use the default Next.js settings.
 
-Run `ng serve` for a dev server. 
+## Content Management
 
-Navigate to `http://localhost:4200/`. 
+Edit `data/portfolio.ts` to update:
 
-The application will automatically reload if you change any of the source files.
+- Name, hero tagline, and about copy
+- Skills and work experience
+- Projects and testimonials
+- Education and contact details
 
-## Code scaffolding
+## Design Tokens
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
-
-## About
-
-This portfolio was designed and developed by myself, Barbara Calderon, using frontend software skills for a dynamic and responsive web application.
+Tailwind theme extensions live in `tailwind.config.ts` (neon accent colors, typography, and glow shadows).

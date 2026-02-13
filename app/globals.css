@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-night text-white antialiased;
+}
+
+::selection {
+  background: rgba(50, 232, 255, 0.35);
+}
+
+.neon-divider {
+  background: linear-gradient(90deg, rgba(50, 232, 255, 0.2), rgba(59, 255, 157, 0.7), rgba(139, 92, 246, 0.3));
+}
